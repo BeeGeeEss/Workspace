@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: #dcdcdc;
+  }
+  
+  // define the mixin
+  // it takes two arguments $col-1 and $col-2
+  @mixin neon($col-1, $col-2) {
+    // assign the $col-1 value to the $main variable
+    $main: $col-1;
+    // assign the $col-2 value to the $glow variable
+    $glow: $col-2;
+  
+    // define the style rules for the neon mixin
+    font-family: cursive;
+    color: $main;
+    text-shadow: 
+      0 0 5px $main, 0 0 15px $main, 
+      0 0 20px $main, 0 0 40px $glow,
+      0 0 60px $glow, 0 0 98px $glow;
+  }
+  
+  // apply neon mixin to h1 using orange pallet
+  h1 {
+    @include neon(#f7cb5c, #bb3e04);
+  }
+  
+  // apply neon mixin to ul using green-blue pallet
+  ul {
+    @include neon(#4beeba, #0051ff);
+  }
+  

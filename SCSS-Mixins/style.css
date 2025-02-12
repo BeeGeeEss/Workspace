@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: #dcdcdc;
+}
+
+h1 {
+  font-family: cursive;
+  color: #f7cb5c;
+  text-shadow: 0 0 5px #f7cb5c, 0 0 15px #f7cb5c, 0 0 20px #f7cb5c, 0 0 40px #bb3e04, 0 0 60px #bb3e04, 0 0 98px #bb3e04;
+}
+
+ul {
+  font-family: cursive;
+  color: #4beeba;
+  text-shadow: 0 0 5px #4beeba, 0 0 15px #4beeba, 0 0 20px #4beeba, 0 0 40px #0051ff, 0 0 60px #0051ff, 0 0 98px #0051ff;
+}/*# sourceMappingURL=style.css.map */
