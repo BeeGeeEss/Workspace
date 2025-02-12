@@ -1,0 +1,36 @@
+ul {
+  color: #0777b3;
+}
+ul abbr[title] {
+  -webkit-text-decoration: underline dashed red;
+          text-decoration: underline dashed red;
+}
+
+li:hover {
+  color: #e788c4;
+}
+
+h1:hover {
+  color: #0777b3;
+}
+
+ul {
+  border: 2px solid #0d07b3;
+}
+
+.para {
+  font-size: 3em;
+}
+.para-first {
+  color: #b20606;
+}
+.para-second {
+  color: #2828f8;
+}
+
+body {
+  background: rgb(245, 245, 157); /* same as background: rgb(245, 245, 157); */
+}
+body abbr {
+  color: rgb(18, 131, 61); /* same as color: rgb(18, 131, 61); */
+}/*# sourceMappingURL=style.css.map */

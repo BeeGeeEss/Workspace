@@ -1,0 +1,17 @@
+// _list.scss
+
+@use "text-colors";
+
+ul {
+    color: text-colors.$blue;
+    abbr[title] {
+      text-decoration: underline dashed red;
+    }
+  }
+  
+  li {
+    &:hover {
+      color: text-colors.$pink;
+    }
+  }
+  

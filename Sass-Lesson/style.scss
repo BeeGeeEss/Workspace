@@ -1,0 +1,35 @@
+@use "text-colors" as tc;
+@use "border-colors" as bc;
+@use "list";
+
+
+h1:hover {
+    color: tc.$blue;
+  }
+
+  ul {
+    border: 2px solid bc.$blue;
+  }
+
+.para {
+    font-size: 3em; // works in css
+  
+    // doesn't work in css
+    &-first {
+      color: #b20606;
+    }
+    &-second {
+      color: #2828f8;
+    }
+  }
+
+  // variable declarations
+$theme-green: rgb(18, 131, 61);
+$theme-yellow: rgb(245, 245, 157);
+
+body {
+  background: $theme-yellow; /* same as background: rgb(245, 245, 157); */
+  abbr {
+    color: $theme-green; /* same as color: rgb(18, 131, 61); */
+  }
+}
