@@ -23,8 +23,9 @@ print(filename.removesuffix('.txt'))
 
 favourite_number = 63
 
+# Basic equations
 print(4+4)
 print(10-2)
 print(4*2)
 print(24/3)
-print(f"My favpurite number is... drumroll please.... {favourite_number}!")
+print(f"My favourite number is... drumroll please.... {favourite_number}!")
