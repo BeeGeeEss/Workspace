@@ -1,4 +1,6 @@
-guests = [
+g
+#This is an excercise in creating, adding, removing list items:
+uests = [
     "Carrie Fisher",
     "Chrissy Amplett",
     "Stockard Channing",

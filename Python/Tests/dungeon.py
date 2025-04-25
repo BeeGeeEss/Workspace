@@ -1,3 +1,5 @@
+# This is a challenge in ED changing list items:
+
 def defeat_monsters_in_dungeon():
     dungeon = [
         "Goblin", 

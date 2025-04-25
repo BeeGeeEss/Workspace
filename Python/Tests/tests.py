@@ -1,3 +1,5 @@
+# This is practicing changing variables/whitespace/capitalisation etc.
+
 first_name = "Eric"
 famous_person = " Kate Miller-Heidke "
 famous_person = famous_person.strip()
@@ -28,4 +30,4 @@ print(4+4)
 print(10-2)
 print(4*2)
 print(24/3)
-print(f"My favourite number is... drumroll please.... {favourite_number}!")
+print(f"My favourite number is... drumroll please.... {favourite_number}!") 

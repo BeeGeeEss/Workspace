@@ -1,3 +1,5 @@
+# This was the python logic for an ED challenge with control flows:
+
 def calculate_rocket_fuel_required(distance):
     fuel = distance * 15
     if fuel < 100:
