@@ -134,21 +134,54 @@
 # print(result)
 
 
+#Write a function that accepts a list of integers as an argumemt, and 
+# returns the sum of all even numbers in the list.
 
-def sum_of_evens(input_list):
-    result = 0
+# def sum_of_evens(input_list):
+#     result = 0
     
-    # your code here...
-    for element in input_list:
-        if element % 2 == 0:
-            result += element
-    return result
+#     # your code here...
+#     for element in input_list:
+#         if element % 2 == 0:
+#             result += element
+#     return result
 
-print(sum_of_evens([]))
-print(sum_of_evens([7, 9, 11]))
-print(sum_of_evens([2, 6, 14]))
+# print(sum_of_evens([]))
+# print(sum_of_evens([7, 9, 11]))
+# print(sum_of_evens([2, 6, 14]))
 
 
+
+
+LIST_OF_WORDS = [
+    "serendipity",
+    "petrichor",
+    "supine", 
+    "solitude",
+    "aurora",
+    "idyllic",
+    "clinomania",
+    "pluviophile",
+    "euphoria",
+    "sequoia"
+]
+
+def filter_list(some_string): 
+    output_list = []
+
+    for word in LIST_OF_WORDS:
+        if some_string in word:
+            output_list.append(word)
+
+    return output_list
+
+
+print(filter_list('aaa'))
+print(filter_list('ph'))
+print(filter_list('i'))
+print(filter_list('q'))
+
+print(LIST_OF_WORDS)
 
 
    
