@@ -181,7 +181,6 @@ print(filter_list('ph'))
 print(filter_list('i'))
 print(filter_list('q'))
 
-print(LIST_OF_WORDS)
 
 
    

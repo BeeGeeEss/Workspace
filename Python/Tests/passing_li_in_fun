@@ -24,6 +24,9 @@ def show_sent_messages(sent_messages):
 show_messages = ['Hello, how are you?', 'It\'s all coming up tickety boo', 'Marvelous, old chap']       
 sent_messages = []
 
+#To create a copied list for 'show_messages'
 send_messages(show_messages[:], sent_messages)
 show_sent_messages(sent_messages)
-print(show_messages)
+
+#Check that the original list is still in tact:
+#print(show_messages)
