@@ -1,12 +1,12 @@
 # #This excercise passes a list to a function
 # #Function:
-# def show_messages(messages):
+def show_messages(messages):
 
-#     for message in messages:
-#         print(message)
+    for message in messages:
+        print(message)
 # #List:
-# msg = ['Hello, how are you?', 'It\'s all coming up tickety boo', 'Marvelous, old chap']
-# show_messages(msg)
+msg = ['Hello, how are you?', 'It\'s all coming up tickety boo', 'Marvelous, old chap']
+show_messages(msg)
 
 
 def send_messages(show_messages, sent_messages):
