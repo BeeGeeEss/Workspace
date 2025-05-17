@@ -18,13 +18,3 @@
 # current_day(" ")
 # current_day("Thursday")
 
-
-def square_the_numbers(numbers_list):
-    
-    squares = []
-
-    for number in numbers_list:
-        squares.append(number ** 2)
-        return squares
-
-square_the_numbers([1,2,3,4,5])

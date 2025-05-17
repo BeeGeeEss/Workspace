@@ -182,18 +182,37 @@
 # print(filter_list('q'))
 
 
-def square_the_numbers(numbers_list):
+#This exercise takes a list of numbers and returns a list of squared numbers
+# def square_the_numbers(numbers_list):
     
-    squares = []
+#     squares = []
 
-    for number in numbers_list:
-        squares.append(number ** 2)
-    print(squares)
-    
-
-square_the_numbers([1,2,3,4,5])
-
-
-   
+#     for number in numbers_list:
+#         squares.append(number ** 2)
+#     print(squares)
     
 
+# square_the_numbers([1,2,3,4,5])
+# square_the_numbers([1,5,7])
+
+
+#This exercise combines strings
+# def combine_strings(str1, str2):
+    
+#     new_string = str1 + str2
+
+#     return new_string.lower()
+
+# print(combine_strings("Sal", "ly"))
+
+
+def bye_bye_three_and_five(num):
+    
+    int_list = []
+    
+    # your code here...
+    if bye_bye_three_and_five(num) (% 3 != 0) and (% 5 != 0):
+        int_list.append(num)
+            
+
+bye_bye_three_and_five(4)
