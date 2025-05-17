@@ -19,7 +19,6 @@
 # current_day("Thursday")
 
 
-
 def square_the_numbers(numbers_list):
     
     squares = []

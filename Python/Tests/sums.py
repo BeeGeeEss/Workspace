@@ -153,34 +153,45 @@
 
 
 
-LIST_OF_WORDS = [
-    "serendipity",
-    "petrichor",
-    "supine", 
-    "solitude",
-    "aurora",
-    "idyllic",
-    "clinomania",
-    "pluviophile",
-    "euphoria",
-    "sequoia"
-]
+# LIST_OF_WORDS = [
+#     "serendipity",
+#     "petrichor",
+#     "supine", 
+#     "solitude",
+#     "aurora",
+#     "idyllic",
+#     "clinomania",
+#     "pluviophile",
+#     "euphoria",
+#     "sequoia"
+# ]
 
-def filter_list(some_string): 
-    output_list = []
+# def filter_list(some_string): 
+#     output_list = []
 
-    for word in LIST_OF_WORDS:
-        if some_string in word:
-            output_list.append(word)
+#     for word in LIST_OF_WORDS:
+#         if some_string in word:
+#             output_list.append(word)
 
-    return output_list
+#     return output_list
 
 
-print(filter_list('aaa'))
-print(filter_list('ph'))
-print(filter_list('i'))
-print(filter_list('q'))
+# print(filter_list('aaa'))
+# print(filter_list('ph'))
+# print(filter_list('i'))
+# print(filter_list('q'))
 
+
+def square_the_numbers(numbers_list):
+    
+    squares = []
+
+    for number in numbers_list:
+        squares.append(number ** 2)
+    print(squares)
+    
+
+square_the_numbers([1,2,3,4,5])
 
 
    
