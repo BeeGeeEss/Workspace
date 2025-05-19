@@ -206,13 +206,35 @@
 # print(combine_strings("Sal", "ly"))
 
 
-def bye_bye_three_and_five(num):
+# def bye_bye_three_and_five(max):
     
-    int_list = []
+#     int_list = []
     
-    # your code here...
-    if bye_bye_three_and_five(num) (% 3 != 0) and (% 5 != 0):
-        int_list.append(num)
-            
+#     # your code here...
+#     for i in range(max + 1):
+#         if (i % 3 != 0) and (i % 5 != 0):
+#             int_list.append(i)
+    
+#     return int_list
 
-bye_bye_three_and_five(4)
+# print(bye_bye_three_and_five(4))
+# print(bye_bye_three_and_five(13))
+# print(bye_bye_three_and_five(0))
+
+
+def filter_students(students, condition):
+
+    return [student for student in students if condition(student)]
+
+students = [
+    {'name': 'Alice', 'grade': 85},
+    {'name': 'Bob', 'grade': 75},
+    {'name': 'Charlie', 'grade': 90},
+    {'name': 'David', 'grade': 60}
+]
+
+condition = lambda student: student['grade'] > 80
+
+   
+filtered_students = filter_students(students, condition)
+print(filtered_students)
