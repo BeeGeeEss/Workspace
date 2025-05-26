@@ -43,4 +43,4 @@ print(contents.replace('girlfriend', 'theyfriend'))
 """Writing to a file"""
 #Will write over other text better to do this with blank file
 
-#path.write_text("words")
+# path.write_text("words")
