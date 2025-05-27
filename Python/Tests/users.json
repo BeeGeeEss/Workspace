@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Mary Jones",
+        "email": "mary@jones.com",
+        "is_admin": true
+    },
+    {
+        "name": "Bill Redman",
+        "email": "bill@redman.com",
+        "is_admin": false
+    }
+]
