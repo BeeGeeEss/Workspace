@@ -13,7 +13,7 @@ class Dog:
 
     # Another instance method
     def speak(self, sound):
-       return f"{self.name} barks: {sound}"  
+        return f"{self.name} barks: {sound}"  
 
 class JackRussellTerrier(Dog):
     def speak(self, sound="Arf"):
@@ -26,9 +26,9 @@ class Bulldog(Dog):
     pass     
 
 miles = JackRussellTerrier("Miles", 4)
-buddy =  Dachshund("Buddy", 9)
+buddy = Dachshund("Buddy", 9)
 
-print(miles.speak)
+print(miles.speak())
 print(miles.speak("Woof Woof"))
 print(miles)
 print(type(miles))

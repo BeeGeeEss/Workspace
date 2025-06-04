@@ -8,5 +8,10 @@
         "name": "Bill Redman",
         "email": "bill@redman.com",
         "is_admin": false
+    },
+    {
+        "Name": "John Smith",
+        "email": "john@smith.com",
+        "is_admin": false
     }
 ]
