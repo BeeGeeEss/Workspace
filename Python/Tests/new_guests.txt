@@ -1,0 +1,6 @@
+Brando
+Brando
+Tom
+quit
+/bin/python3 /home/beegeeess/GitHome/Workspace/Python/Tests/new_guests_func.py
+Tom

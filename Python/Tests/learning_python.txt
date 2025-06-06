@@ -1,0 +1,5 @@
+In python we have learnt variable and functions.
+In python we have learnt classes and onjects.
+In python we have learnt loops and if statements.
+In python we have learnt error and exception handling.
+In python we have learnt testing.
