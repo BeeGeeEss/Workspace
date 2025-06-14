@@ -1,45 +1,45 @@
 """Option one for library"""
 
-# from kerykeion import AstrologicalSubject, KerykeionChartSVG, Report
+from kerykeion import AstrologicalSubject, KerykeionChartSVG, Report
 
 # # Create an instance of the AstrologicalSubject class.
 # # Arguments: Name, year, month, day, hour, minutes, city, nation
-# subject = AstrologicalSubject(
-#     name="Brando",
-#     year=1991,
-#     month=2,
-#     day=8,
-#     hour=8,
-#     minute=30,
-#     lat=-34.206907,
-#     lng=142.136694,
-#     tz_str="Australia/Melbourne",
-#     city="Mildura, Australia")
+subject = AstrologicalSubject(
+     name="Brando",
+     year=1991,
+     month=2,
+     day=8,
+     hour=8,
+     minute=30,
+     lat=-34.206907,
+     lng=142.136694,
+     tz_str="Australia/Melbourne",
+     city="Mildura, Australia")
 
 # # Retrieve information about the Sun:
-# subject.sun
-# # > {'name': 'Sun', 'quality': 'Mutable', 'element': 'Air', 'sign': 'Gem', 'sign_num': 2, ...}
+subject.sun
+# > {'name': 'Sun', 'quality': 'Mutable', 'element': 'Air', 'sign': 'Gem', 'sign_num': 2, ...}
 
 # # Retrieve information about the first house:
-# subject.first_house
+subject.first_house
 # # > {'name': 'First_House', 'quality': 'Cardinal', 'element': 'Water', 'sign': 'Can', ...}
 
 # # Retrieve the element of the Moon sign:
-# subject.moon.element
+subject.moon.element
 # # > 'Water'
 
-# print(subject.moon)
+print(subject.moon)
 
 
 
-# John = AstrologicalSubject()
-# birth_chart_svg = KerykeionChartSVG(John, new_output_directory="/home/beegeeess/GitHome/Workspace/App-Project/generated_SVGs")
-# birth_chart_svg.makeSVG()
+John = AstrologicalSubject()
+birth_chart_svg = KerykeionChartSVG(John, new_output_directory="/home/beegeeess/GitHome/Workspace/App-Project/generated_SVGs")
+birth_chart_svg.makeSVG()
 
 
-# John = AstrologicalSubject(John)
-# report = Report(John)
-# report.print_report()
+John = AstrologicalSubject(John)
+report = Report(John)
+report.print_report()
 
 
 
