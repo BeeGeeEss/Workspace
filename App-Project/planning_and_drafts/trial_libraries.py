@@ -1,6 +1,7 @@
 """Option one for library"""
 
 from kerykeion import AstrologicalSubject, KerykeionChartSVG, Report
+import sys
 
 # # Create an instance of the AstrologicalSubject class.
 # # Arguments: Name, year, month, day, hour, minutes, city, nation
@@ -29,59 +30,61 @@ subject.moon.element
 # # > 'Water'
 
 print(subject.moon)
+print(subject.sun)
 
 
 
-John = AstrologicalSubject()
-birth_chart_svg = KerykeionChartSVG(John, new_output_directory="/home/beegeeess/GitHome/Workspace/App-Project/generated_SVGs")
-birth_chart_svg.makeSVG()
+
+# John = AstrologicalSubject()
+# birth_chart_svg = KerykeionChartSVG(John, new_output_directory="/home/beegeeess/GitHome/Workspace/App-Project/generated_SVGs")
+# birth_chart_svg.makeSVG()
 
 
-John = AstrologicalSubject(John)
-report = Report(John)
-report.print_report()
+# John = AstrologicalSubject(John)
+# report = Report(John)
+# report.print_report()
 
 
 
-"""Option 2 for libraries"""
+# """Option 2 for libraries"""
 
-from natal import Data, Chart, Stats 
-from natal_report import Report
+# from natal import Data, Chart, Stats 
+# from natal_report import Report
 
-# create chart data object
-mimi = Data(
-    name="MiMi",
-    utc_dt="1980-04-20 06:30",
-    lat=25.0531,
-    lon=121.526,
-)
+# # create chart data object
+# mimi = Data(
+#     name="MiMi",
+#     utc_dt="1980-04-20 06:30",
+#     lat=25.0531,
+#     lon=121.526,
+# )
 
-# return natal chart in SVG string
-Chart(mimi, width=600).svg
+# # return natal chart in SVG string
+# Chart(mimi, width=600).svg
 
-# create transit data object
-transit = Data(
-    name="Transit",
-    utc_dt="2024-01-01 05:30",
-    lat=25.0531,
-    lon=121.526,
-)
+# # create transit data object
+# transit = Data(
+#     name="Transit",
+#     utc_dt="2024-01-01 05:30",
+#     lat=25.0531,
+#     lon=121.526,
+# )
 
-# create a transit chart
-transit_chart = Chart(
-    data1=mimi, 
-    data2=transit, 
-    width=600
-)
+# # create a transit chart
+# transit_chart = Chart(
+#     data1=mimi, 
+#     data2=transit, 
+#     width=600
+# )
 
-# view the composite chart in jupyter notebook
-# from IPython.display import HTML
+# # view the composite chart in jupyter notebook
+# # from IPython.display import HTML
 
-# HTML(transit_chart.svg)
+# # HTML(transit_chart.svg)
 
-report = Report(data1=mimi, data2=transit)
-html = report.full_report
-bytes_io = report.create_pdf(html)
+# report = Report(data1=mimi, data2=transit)
+# html = report.full_report
+# bytes_io = report.create_pdf(html)
 
-with open("demo_report_mono.pdf", "wb") as f:
-    f.write(bytes_io.getbuffer())
+# with open("demo_report_mono.pdf", "wb") as f:
+#     f.write(bytes_io.getbuffer())
